@@ -60,6 +60,24 @@
 
                     Teknikens framtid: Teknikens framtid är både spännande och osäker, med nya innovationer och genombrott i horisonten. Några av de mest lovande teknikområdena inkluderar bland annat förnybar energi, bioteknik och rymdutforskning.
                 </p>
+                <h2> Om du hittar några fel skicka gärna ett mail med problemet!</h2>
+                <form action="action.php" method="post"> <!-- formuläret och dess metoder  -->
+                    <label for="HEJnamn"> förnamn </label><br> <!-- Rubrik till formulär cellen -->
+                    <input type="text" name="Ename" id="HEJnamn"><br>
+                    <label for="epost"> Email-adress</label><br>
+                    <input type="email" name="epost" id="epost"><br>
+                    <label for="Sida"> Välj sidan du tycker något saknas på</label>
+                    <select name="Sida" id="Sida"> <!-- Vilken sida som du hjälper mig med fel. En roll down meny-->
+                        <option value="Index"> Startsida </option> <!-- ett av alternativen  -->
+                        <option value="2-takt"> Pacman </option>
+                        <option value="2-taktGoN"> Google </option>
+                        <option value="4-takt"> Den första datorn</option>
+                        <option value="4-taktGoN"> Tennis for two </option>
+                    </select> <br>
+                    <p> Skriv vad det är för fel på sidan här: </p><br>
+                    <textarea> Fel </textarea><br> 
+                    <button type="submit" onclick="alert('Tack för hjälpen')">Skicka</button> <!-- Skicka knappen  -->
+                </form>
             </section>  
         
         
