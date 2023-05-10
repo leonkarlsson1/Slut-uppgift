@@ -19,6 +19,15 @@ body{
     
 
   }
+  iframe{
+    height:250px;
+    width:450px;
+    margin-left:85px;
+    margin-top:100px;
+    height:260px;
+    
+  }
+
   #mainindex{
     display: grid;
     grid-template-areas: "section figure andra";
