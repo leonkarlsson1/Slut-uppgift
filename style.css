@@ -40,7 +40,7 @@ body{
       border:solid;
       border-color: white;
   }
-  
+  /* Gör att navbaren är en del av gridden och att den ligger på rätt sida.  */
   nav{
       grid-area: navbar;
       background: black;
@@ -63,8 +63,9 @@ body{
       color: black;
   }
   
+  /* Grid för main och gör sidan adaptiv för heighten bestämmer också storklek på columnsens */
   main{
-    height: 78vh;
+    height: 100vh;
     display: grid;
     height: auto;
     padding: 0;
@@ -111,15 +112,15 @@ body{
       }
   }
 
-p{
-    font-size: 20px;
+p{/*Gör att texten i p blir 20px*/
+    font-size: 1.3em;
 }
-
+/* sätter en standard för alla bilder på sida */
 img{
 
     display: block;
     margin:0 auto;
-    width: 100%;
+    width: 80%;
     max-width: 80%;
     height: auto;
     margin-left: auto;
