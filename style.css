@@ -155,7 +155,12 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color:aliceblue;
+    background-color:#9b23a3;
+  }
+
+  video{
+    width:560px
+    height:315px
   }
   
 
