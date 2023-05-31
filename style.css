@@ -158,6 +158,10 @@ table {
     width:560px
     height:315px
   }
+
+  audio{
+    text-align: center;
+  }
   
   /* LoVe Focus HAte */ 
 a:link{
